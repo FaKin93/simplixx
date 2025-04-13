@@ -13,12 +13,12 @@
         <RowDefinition Height="Auto" MinHeight="70.04"/>
     </Grid.RowDefinitions>
 
-    <TextBlock FontSize="16" FontWeight="Bold" FontFamily="Sans" Text="Симплекс-метод" Grid.Row="0" Margin="0,0,0,10"/>
+    <TextBlock FontSize="14" FontWeight="Bold" FontFamily="Tw Cen MT" Text="Симплекс-метод" Grid.Row="0" Margin="0,0,0,10"/>
 
     <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,40,0,0">
-        <TextBlock Text="Количество рядов:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <TextBlock Text="Количество рядов:" FontSize="14" FontFamily="Tw Cen MT" VerticalAlignment="Center" Margin="0,0,5,0"/>
         <TextBox x:Name="rowsInput" Width="50" Margin="0,0,20,0"/>
-        <TextBlock Text="Количество столбцов:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <TextBlock Text="Количество столбцов:" FontSize="14" FontFamily="Tw Cen MT" VerticalAlignment="Center" Margin="0,0,5,0"/>
         <TextBox x:Name="columnsInput" Width="50" Margin="0,0,20,0"/>
         <Button Content="Создать матрицу" Click="CreateMatrix_Click"/>
     </StackPanel>
